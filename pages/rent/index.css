@@ -1,0 +1,65 @@
+:root {
+  /* Nude + Luxury palette */
+  --bg: #14dceb;
+
+  --surface: #ffffff;
+
+  --text: #1d1b16;
+
+  --muted: #7a736b;
+
+  --accent: #c8a165;
+
+  --accent-600: #9f7c41;
+
+  --line: #e9e2db;
+
+  --badge: #efe7de;
+
+  --radius: 14px;
+
+  --shadow: 0 6px 20px rgba(0, 0, 0, 0.03);
+
+  --maxw: 640px;
+
+  --font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto,
+    Helvetica, Arial;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    background-color: var(--bg);
+    max-width: 100%;
+
+}
+/* NAV */
+.nav{
+    background-color: var(--bg);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.mainsection{
+    background-color: brown;
+    align-items: center;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.mainsection img{
+    border-radius: 20px;
+    position: relative;
+    width: 413px;
+    height: 141px;
+}
+.name{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+

@@ -116,6 +116,21 @@ body {
   font-weight: 600;
   text-align: center;
 }
+/* alert unseccess */
+.alert-section {
+  position: absolute;
+  display: block;
+  margin: 25px auto;
+  width: 90%;
+  max-width: 700px;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 300px;
+  margin-left: 19px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
 /* contact form section */
 .contact-box {
     margin: 25px auto;
