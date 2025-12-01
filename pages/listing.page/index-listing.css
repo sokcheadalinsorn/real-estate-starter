@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  :root {
+  /* Nude + Luxury palette */
+  --bg: #51bafa;
+
+  --surface: #ffffff;
+
+  --text: #1d1b16;
+
+  --muted: #7a736b;
+
+  --accent: #c8a165;
+
+  --accent-600: #9f7c41;
+
+  --line: #e9e2db;
+
+  --badge: #efe7de;
+
+  --radius: 14px;
+
+  --shadow: 0 6px 20px rgba(0, 0, 0, 0.03);
+
+  --maxw: 640px;
+
+  --font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto,
+    Helvetica, Arial;
+}
+  body{
+    background: var(--surface);
+    max-width: 100%;
+    box-sizing:border-box ;
+  }
+   header {
+    background: #34a8e0;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.menu-btn {
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.hero {
+    /* background: url('modern-building.jpg') center/cover no-repeat; */
+    padding: 40px;
+    border-radius: 10px;
+    margin: 20px;
+    color: white;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    background-color: #1d1b16;
+}
+
+.hero h2 {
+    font-size: 28px;
+}
+
+.search-box {
+    margin-top: 20px;
+    background:#07416283;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    gap: 10px;
+    
+}
+
+/* .search-box select, */
+.search-box button {
+    padding: 10px 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.buy {
+  background: #1a91da;
+  color: white; }
+.rent {
+   background: #fff;
+    border: 1px solid #1a91da;
+     color: #1a91da; }
+.search {
+   background: #1a91da; 
+   color: white; }
+   
+    .property-card {
+    background: white;
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.prop-img {
+    width: 100%;
+}
+
+.property-info {
+    padding: 20px;
+}
+
+.price {
+    color: #1a91da;
+    margin-bottom: 10px;
+    }
+.property-card {
+    background: white;
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.prop-img {
+    width: 100%;
+}
+
+.property-info {
+    padding: 20px;
+}
+
+.price {
+    color: #1a91da;
+    margin-bottom: 10px;
+
+}
+.icon{
+
+ background-color: #0d74a8;
+padding-bottom: 15px;
+
+}
+.icon i {
+  margin-right: 50px;
+  margin-left: 0;
+  gap: 50px;
+
+}
+.text{
+  font: var(--font-family);
+}
+.text h4{
+ color: #030405;
+}
+  .view{
+    margin-left: 30px;
+    padding: 10px 20px;
+    background: #1a91da;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+    
