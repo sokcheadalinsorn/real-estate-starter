@@ -8,9 +8,9 @@
 
   --muted: #7a736b;
 
-  --accent: #c8a165;
+  --accent: #51bafa;
 
-  --accent-600: #9f7c41;
+  --accent-600: #ba9c9c;
 
   --line: #e9e2db;
 
@@ -58,6 +58,7 @@ img {
 
 .hero {
   padding: 16px;
+  position: relative;
 }
 
 .hero__card {
@@ -65,9 +66,19 @@ img {
   border: 1px solid var(--line);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
-  padding: 18px;
 }
-
+.hero-search{
+  position: absolute;
+  top: 47%;
+  left: 29%;
+  padding: 12px ;
+}
+.hero__text{
+  position: absolute;
+  top: 38%;
+  left: 25%;
+  color: #ffffff;
+}
 .hero__title {
   font-size: 1.35rem;
   margin: 0 0 6px;
@@ -113,19 +124,47 @@ img {
   color: #fff;
   border: none;
   border-radius: 12px;
-  padding: 12px 14px;
-  font-weight: 600;
+  padding: 12px 110px;
+ font-family: var(--font-family);
   font-family: var(--font-family);
 }
 
 .hero__btn:hover {
   background: var(--accent-600);
 }
-
+.browse{
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
+.browse h3{
+  font-family: var(--font-family);
+  font-family: var(--font-family);
+  border-radius: 12px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  border: 1px solid black ;
+    padding: 12px 20px;
+}
+.browse-card:hover{
+  opacity: 1;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.browse-title{
+  display: flex;
+  align-items: center;
+}
+.browse-title h1{
+justify-content: center;
+margin-left: 250px;
+margin: 0;
+}
 .section {
   padding: 14px 16px;
 }
-
 .section__head {
   display: flex;
   align-items: center;
@@ -174,7 +213,7 @@ img {
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  box-shadow: var(--shadow);
+  
   padding: 12px;
 }
 

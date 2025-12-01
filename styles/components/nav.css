@@ -2,7 +2,7 @@
   position: sticky;
   top: 0;
   z-index: 20;
-  background: var(--surface);
+  background-color: #51bafa;
   border-bottom: 1px solid var(--line);
 }
 
@@ -17,7 +17,11 @@
   font-weight: 800;
   letter-spacing: 0.2px;
 }
-
+.nav__brand img{
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+}
 .nav__toggle {
   background: transparent;
   border: 1px solid var(--line);
@@ -51,4 +55,5 @@
 .nav--open .nav__list {
   display: block;
   margin: 0 auto;
+  background-color: #51bafa;
 }
