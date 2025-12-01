@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.html {
+  scroll-behavior: smooth;
+  scroll: padding 90px;
+}
+
+:root {
+  /* Nude + Luxury palette */
+  --bg: #f6f2ee;
+
+  --surface: #ffffff;
+
+  --text: #1d1b16;
+
+  --muted: #7a736b;
+
+  --accent: #c8a165;
+
+  --accent-600: #51bafa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  font-family: "Lato", sans-serif;
+  /* font-family: "Mon-serif;tserrat#", sans */
+}
+
+.header-page {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--accent-600);
+  margin: auto;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  overflow: hidden;
+}
+
+.navbar i {
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+.herosection {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.text-herosection {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.tittle-herosection {
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+
+.tittle-herosection h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.show-heosection {
+  width: 50%;
+  height: 290px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.picture-herosection {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.picture-herosection img {
+  width: 100%;
+  max-width: 400px; /* Same feeling as before but responsive */
+  height: auto;
+  margin-left: 0; /* remove the 500px margin that breaks mobile */
+}
+
+.information-herosection {
+  width: 60%;
+  height: 240px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 20px;
+  overflow: hidden;
+}
+
+.mr-herosection {
+  width: 100%;
+  height: 50px;
+  overflow-y: hidden;
+}
+
+.normal-herosection {
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+}
+
+.visoin-herosection {
+  width: 97%;
+  height: 450px;
+  overflow: hidden;
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.visionimg {
+  width: 100%;
+  height: 265px;
+  overflow: hidden;
+}
+
+.content-vision {
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.visionimg img {
+  border-radius: 5px;
+}
+
+.mission-herosection {
+  width: 97%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* if you have title + paragraph inside */
+  overflow: hidden;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.agent-herosection {
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  margin-top: 50px;
+  text-align: center;
+}
+
+
+.card-herosection{
+  width: 100%;
+  height: 1000px;
+  overflow: hidden;
+  background-color: blue;
+  margin-left: 20px;
+  margin-top: 50px;
+
+}
+
+@media (min-width: 768px) {
+  .intro h1 {
+    font-size: 32px;
+  }
+
+  .leader-img,
+  .section-img {
+    max-width: 600px;
+  }
+
+  .agent-card {
+    max-width: 420px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .leader-img,
+  .section-img {
+    max-width: 700px;
+  }
+
+  .agent-card {
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 768px) {
+  .picture-herosection img {
+    max-width: 300px;
+  }
+}
