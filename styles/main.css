@@ -162,28 +162,28 @@ img {
   gap: 1rem;
 }
 
-.section__agents {
-  display: grid;
-  gap: 12px;
-}
+  .section__agents {
+    display: grid;
+    gap: 12px;
+  }
 
-.agent {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-  padding: 12px;
-}
+  .agent {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 12px;
+  }
 
-.agent__avatar {
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
-  object-fit: cover;
-}
+  .agent__avatar {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
 
 .why {
   background: var(--surface);

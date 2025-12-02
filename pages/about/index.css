@@ -17,6 +17,7 @@
   --accent: #c8a165;
 
   --accent-600: #51bafa;
+  --font-family: "Mon-serif;tserrat#", sans
 }
 
 * {
@@ -199,6 +200,144 @@
 
 }
 
+.section__head h2{ 
+  font-family: var(--font-family);
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+.section__head  a{ 
+  color: var(--text );
+  margin-left: 1250px;
+  text-decoration: none;
+  text-emphasis-color: var(--muted )  ;
+}
+
+.section__title {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.section__hint {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.section__actions {
+  display: flex;
+  gap: 8px;
+}
+
+.section__link {
+  cursor: pointer;
+}
+
+.section__link:hover {
+  text-decoration: underline;
+}
+
+.card-grid-groups {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+  .section__agents {
+    display: grid;
+    gap: 12px;
+  }
+
+  .agent {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 12px;
+  }
+
+  .agent__avatar {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+
+  .agent{ 
+    width:98%;
+    border: 1px solid grey;
+    margin-left: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: var(--accent-600 );
+  }
+
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+
+footer {
+    background: #082435;
+    color: white;
+    padding: 40px 20px;
+    margin-top: 20px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-section {
+    margin-bottom: 30px;
+}
+
+.footer-section h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.footer-links a {
+    color: #d8d8d8;
+    text-decoration: none;
+    margin-right: 10px;
+    display: inline-block;
+    font-size: 15px;
+}
+/* media */
+.social-icons img {
+    width: 35px;
+    margin-right: 15px;
+}
+/* Mobile Apps */
+.mobile-apps img {
+    width: 160px;
+    margin-bottom: 10px;
+    display: block;
+}
+/* Payments */
+.payments img {
+    width: 60px;
+    margin-right: 8px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #3b4d57;
+    margin: 30px 0;
+}
+.bottom-text {
+    font-size: 14px;
+    color: #d0d0d0;
+}
 @media (min-width: 768px) {
   .intro h1 {
     font-size: 32px;
