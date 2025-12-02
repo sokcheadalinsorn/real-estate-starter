@@ -9,14 +9,19 @@
 </head>
 <body>
     <!-- NAV -->
-   
-    <nav class="header">
-        <div class="logo">
-            <img src="logo.png" alt="logo">
+    <nav class="nav" aria-label="Primary">
+        <div class="nav__bar container">
+            <a class="nav__brand" href="/"><img src="logo.png" alt="logo"></a>
+            <button class="nav__toggle" aria-expanded="false" aria-controls="navList" id="navToggle">Menu</button>
         </div>
-        <div class="nav-bar">
-            <i class="fa-solid fa-bars"></i>
-        </div>
+        <ul class="nav__list container" id="navList">
+            
+            <li class="nav__item"><a class="nav__link" href="#">Rent</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Buy</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">About</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Agents</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Contact</a></li>
+        </ul>
     </nav>
 
     <!-- main-section -->
@@ -85,7 +90,7 @@
     <!-- location section -->
     <section class="location-section">
         <div class="location-sign">
-            <img src="logo-location.png" alt="location-location">
+            <img src="location.png" alt="location-location">
         </div>
         
         <h3>Address</h3>
@@ -97,7 +102,7 @@
     <!-- call section -->
     <section class="call-section">
         <div class="call-sign">
-            <img src="call-logo.png" alt="call-logo">
+            <img src="call.png" alt="call-logo">
         </div>
         
         <p>+855 97654604 <br> +855 10679769</p>
@@ -107,7 +112,7 @@
      <!-- email section -->
     <section class="email-section">
         <div class="email-sign">
-            <img src="email-logo.png" alt="email-logo">
+            <img src="email.png" alt="email-logo">
         </div>
         <h3>Email</h3>
         
@@ -125,6 +130,83 @@
     <p class="title">How to Reach Us?</p>
 
     <img src="map 4.png" alt="map" class="map-img">
+
+    <!-- footer -->
+     <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>footer</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <footer>
+        <div class="footer-container">
+                <!-- Company -->
+            <div class="footer-section">
+                <h3>Company</h3>
+                <div class="footer-links">
+                    <a href="#">About us</a> |
+                    <a href="#">Apple KH Real Estate</a> |
+                       <br><br>
+                    <a href="#">Property listing details</a> |
+                    <a href="#">list Properties</a> |
+                </div>
+            </div>
+
+              <!-- Join Us -->
+            <div class="footer-section">
+                <h3>Join Us</h3>
+                <div class="footer-links">
+                    <a href="#">Life at Apple KH Real</a> |
+                    <a href="#">Become an Agent</a> |
+                </div>
+            </div>
+
+             <!-- Social Media -->
+            <div class="footer-section">
+                <h3>Social Media</h3>
+                <div class="social-icons">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" />
+                    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" />
+                    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111644.png" alt="Telegram" />
+                    <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="Tiktok" />
+                </div>
+            </div>
+
+                <!-- Mobile Apps -->
+           <div class="footer-section">
+               <h3>Mobile Apps</h3>
+               <div class="mobile-apps">
+                    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="APP Store">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="GOOGLE PAY">
+                </div>
+            </div>
+
+                <!-- Payments -->
+            <div class="footer-section">
+                <strong>We accept :</strong> <br>
+                <div class="payments">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/ABA_Bank_logo.png" alt="">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/KHB_Logo.png" alt="">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Visa_Logo.png" alt="">
+                </div>
+            </div>
+            
+            <hr>
+
+            <div class="bottom-text">
+                Term of use | Privacy Policy <br>
+                Apple KH Real Estate, 2025. All right reserved.
+            </div>
+        
+        
+        </div>  
+    </footer>
+ 
+    
+
 
 </body>
 </html>
