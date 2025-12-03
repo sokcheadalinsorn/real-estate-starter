@@ -81,26 +81,51 @@
         
 }
 
-
-.main-agent{ 
-        width: 50%;
-        height: 300px;
-        overflow: hidden;
-        background-color: var(--accent-600 );
-        margin: auto;
-        display: block;
-        justify-content: center;
+.main-card{ 
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: space-between;
         align-items: center;
+        margin: 0px 20px 0px 20px;
+}
+
+.card-1{ 
+        width: 45%;
+        height: 300px;
         border-radius: 10px;
+        font-display: ;
+        background-color: var(--accent-600);
 }
 
 
-.profile-agent{ 
-        width: 100%;
-        height: 150px;
-        display: flex;
+.logo-card{ 
+        width: 30%;
+        height: 100%;
+        display: block;
         justify-content: center;
         align-items: center;
-        background-color: deeppink;
+        background-color: #ffffff;
 
+}
+
+
+.logo-card img{ 
+        width: 100%;
+        height: 200px;
+        margin-top: 25%;
+}
+
+
+
+
+
+
+
+
+.card-2{ 
+        width: 45%;
+        height: 100%;
+        border: 2px solid var(--muted);
+        border-radius: 10px;
 }
