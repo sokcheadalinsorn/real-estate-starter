@@ -2,28 +2,93 @@
   position: relative;
   overflow: hidden;
   border-radius: 1rem;
-  height: 500px;
+  height: 650px;
   cursor: pointer;
   color: #fff;
   text-decoration: none;
   transition: transform 0.3s ease;
   background-color: #bfc1c3;
-  display: flex;
-  justify-content:center;
-  text-align: center;
+  display: block;
 }
-.categories{
-  width: 30%;
-  height: 150px;
-  background-color: #51bafa;
-  margin: 20px;  
+.card-top-latest {
+  border-radius: 1rem;
+  height: 250px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  background-color: #bfc1c3;
+  display: flex;
+  justify-content: space-around;
+}
+.card-latest{
+  width: 48%;
+  height: 90%;
+  
+}
+.card-latest img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.title-latest{
+  width: 48%;
+  height: 99%;
+  border-radius: 20px;
+}
+.card-latest{
+  width: 45%;
+  height: 100%;
+}
+.categories-1{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
 }
 .card-pic{
-  width: 100%;
-  height: 60%;
-  background-color: #000000;
-  margin: 10px;
+  width: 25%;
+  height: 100%;
+  background: var(--accent);
+  border-radius: 20px;
+  display: block;
 }
+.categories-2{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+
+}
+.categories-3{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+.categories-pic{
+  width: 80%;
+  height: 60%;
+  background-color: azure;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.categories-pic img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.title-pic{
+  padding: 6px;
+  text-align: center;
+  background-color: rgb(177, 167, 167);
+  border-radius: 15px;
+  margin: 15px;
+
+}
+
 /* Make image fill the whole card */
 .card-top__media {
   position: absolute;
